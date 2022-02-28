@@ -1,0 +1,38 @@
+# Pet servisine request body oluştur
+* "id" parameter Int:"19979" değeri ile request oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Dog" değeri ile json objesi oluştur
+* "category" parameteri ile Json Objesini oluştur
+* Json Objesini Temizle
+* "name" parameter String:"Pappii" değeri ile request oluştur
+* "string" parameteresini listeye ekle
+* "photoUrls" parameteri ile Json List Objesini oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Boxer" değeri ile json objesi oluştur
+* "tags" parameteri ile Array Objesini oluştur
+* "status" parameter String:"available" değeri ile request oluştur
+
+# <id> idli request bodyde 'name' keyini <nameValue> ile güncelle
+* "id" parameter Int:<id> değeri ile request oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Dog" değeri ile json objesi oluştur
+* "category" parameteri ile Json Objesini oluştur
+* Json Objesini Temizle
+* "name" parameter String:<nameValue> değeri ile request oluştur
+* "string" parameteresini listeye ekle
+* "photoUrls" parameteri ile Json List Objesini oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Boxer" değeri ile json objesi oluştur
+* "tags" parameteri ile Array Objesini oluştur
+* "status" parameter String:"available" değeri ile request oluştur
+
+
+#User createWithArray request body oluştur
+*"id" parameter Int:"11" değeri ile request oluştur
+*"username" parameter String:"EEH" değeri ile request oluştur
+*"firstName" parameter String:"ERDEM" değeri ile request oluştur
+*"lastName" parameter String:"OK" değeri ile request oluştur
+*"email" parameter String:"hepsitestotomasyon@gmail.com" değeri ile request oluştur
+*"password" parameter String:"Hepsiburadatest1" değeri ile request oluştur
+*"phone" parameter String:"55656656" değeri ile request oluştur
+*"userStatus" parameter Int:"0" değeri ile request oluştur

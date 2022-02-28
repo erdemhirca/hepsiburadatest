@@ -1,0 +1,65 @@
+# Giriş yap bölümüne gir
+* "1" saniye bekle
+* "[class='sf-OldMyAccount-1k66b user-info']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+* "[id='login']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+
+# Kullanıcı adı:<value> ve şifre<sifre>  ile giriş yap
+* "5" saniye bekle
+* "[id='txtUserName']" elementine "css" degeri ile tikla
+* "[id='txtUserName']" elementine "css" degeri ile <value>'ni yaz
+* "1" saniye bekle
+* "[id='btnLogin']" elementine "css" degeri ile tikla
+* "5" saniye bekle
+* "[id='txtPassword']" elementine "css" degeri ile tikla
+* "[id='txtPassword']" elementine "css" degeri ile <sifre>'ni yaz
+* "1" saniye bekle
+* "[id='btnEmailSelect']" elementine "css" degeri ile tikla
+
+# Ana sayfada ki arama kısmına <value> değerini yaz ve ARA butonuna tıkla.
+* "3" saniye bekle
+* "[class='desktopOldAutosuggestTheme-container'] [class='desktopOldAutosuggestTheme-input']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+* "[class='desktopOldAutosuggestTheme-container'] [class='desktopOldAutosuggestTheme-input']" elementine "css" degeri ile <value>'ni yaz
+* "1" saniye bekle
+* "[class='SearchBoxOld-buttonContainer']" elementine "css" degeri ile tikla
+
+# Cep telefonu ekranında en az<value> değerini gir
+* "1" saniye bekle
+* "[placeholder='En az']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+* "[placeholder='En az']" elementine "css" degeri ile <value>'ni yaz
+
+# Cep telefonu ekranında en çok<value> değerini gir ve ilerle butonuna tıkla
+* "1" saniye bekle
+//* "[placeholder='En çok']" elementine "css" degeri ile tikla
+* "[placeholder='En çok']" elementine "css" degeri ile <value>'ni yaz
+* "1" saniye bekle
+* Scroll yap
+* "[class='content-rangeInputRoot'] [kind='primary']" elementine "css" degeri ile tikla
+
+# Listelenen ürünlerden en alttaki ürünü seç.
+* "5" saniye bekle
+* "[id='i23']" elementine "css" degeri ile tikla
+
+# Ürün detay sekmesine geçiş yapılır.
+* "1" sekmesine gecis yap
+* "1" saniye bekle
+
+# Ürün detay ekranlarında Tüm Satıcılar bölümüne gir ve en düşük puanlı satıcıyı seç.
+* Scroll yap
+* "1" saniye bekle
+* "[id='merchantTabTrigger']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+* Scroll yap
+* Scroll yap
+* "5" saniye bekle
+* "[class='merchant-list-item merchant-sort-item'][data-seller-rating='7.6'] [class='add-Cart']" elementine "css" degeri ile tikla
+* "[class='deny-text']" elementine "css" degeri ile tikla
+
+# Ürün sepetinde ürünün eklendiği kontrol edilir.
+* "5" saniye bekle
+* "[class='checkoutui-ProductOnBasketHeader-22Wrk']" elementinin "css" degerinde ki text "Ürün sepetinizde" degerine esit mi?
+
+
